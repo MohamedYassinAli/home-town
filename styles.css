@@ -1,4 +1,9 @@
 
+body{
+margin: 0;
+padding: 0;
+}
+
 .background-color {
   background: linear-gradient(#d5c2f3, hsl(348, 54%, 50%), #d6cce6,hsl(348, 54%, 50%),#484253);
   height: 100%;
@@ -75,7 +80,7 @@
   width: 31%;
   height: 51%;
   object-fit: cover;
-  border-radius: 21%;
+  border-radius: 17%;
   margin-left: 10px;
   margin-right: 10px;
   
@@ -144,7 +149,7 @@
   .img1,
   .img2,
   .img3 {
-      width: 61%;
+      width: 67%;
       height: 31%;
       margin-top: 23px;
     
@@ -155,7 +160,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin-top: -59px;
+    margin-top: -51px;
   }
   #text{
   font-size: 21px;
