@@ -144,7 +144,7 @@
   .img1,
   .img2,
   .img3 {
-      width: 50%;
+      width: 71%;
       height: 31%;
       margin-top: 23px;
     
@@ -155,7 +155,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin-top: -71px;
+    margin-top: -61px;
   }
   #text{
   font-size: 21px;
