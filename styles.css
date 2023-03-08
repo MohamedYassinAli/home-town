@@ -18,6 +18,7 @@
 }
 #text{
   font-size: 31px;
+  font-family: Ramadhanfest;
   animation: 3s linear 0s infinite running myColorChange;
   margin-top: 3px;
   text-shadow: 2px 2px 6px black;
@@ -144,7 +145,7 @@
   .img2,
   .img3 {
       width: 50%;
-      height: 21%;
+      height: 41%;
       margin-top: 23px;
     
   }
