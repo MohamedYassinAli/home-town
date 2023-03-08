@@ -1,0 +1,243 @@
+.background-color {
+  background: linear-gradient(#d5c2f3, hsl(348, 54%, 50%), #d6cce6,hsl(348, 54%, 50%),#484253);
+  height: 100%;
+  
+}
+
+.activities {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.title1{
+  width: 100%;
+  border-radius: 9px;
+  margin-top: 0px;
+  
+}
+#text{
+  font-size: 31px;
+  animation: 3s linear 0s infinite running myColorChange;
+  margin-top: 3px;
+  text-shadow: 2px 2px 6px black;
+  
+  
+}
+
+.title3 {
+  margin: 30px auto 70px auto;
+  font-family: Ramadhanfest;
+  font-size: 22px;
+  color: #4e0237;
+  text-shadow: 2px 2px 6px black;
+  text-align: center;
+  white-space: nowrap;
+	overflow: hidden;
+	border-right: 4px solid #f5eeee00;
+	animation: cursor 0.0s step-start infinite, 
+    text 5s steps(18) alternate infinite;
+}
+
+@keyframes cursor {
+	0%, 100% { 
+    border-color: #212121; 
+  }
+}
+
+@keyframes text {
+	0% { 
+    width: 0; 
+  }
+	100% { 
+    width: 100%; 
+  }
+} */
+  
+}
+
+
+.img-wrap {
+  display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  margin-top: -13px;
+  width: 100%;
+  
+  
+}
+
+.img1,
+.img2,
+.img3 {
+  max-width: 100%;
+  width: 31%;
+  height: 51%;
+  object-fit: cover;
+  border-radius: 31%;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+.hero{
+  background-image: url(images/24.png);
+  background-repeat:no-repeat ;
+  background-size: cover;
+  background-position: center; 
+  height: 900px;
+  
+  
+  
+}
+
+
+
+
+.card-warp {
+  height: 340px;
+  margin-top: 351px;
+}
+
+.avatar {
+  width: 150px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  border-bottom: 6px solid #9C0D38;
+  color: white;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 12px;
+  margin-bottom: 51px;
+
+
+  /*
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation: myColorChange;
+  */
+
+  animation: 3s linear 0s infinite running myColorChange;
+}
+
+@keyframes myColorChange{
+  20%{background-color: #3b0199;}
+  40%{background-color: #b5838d;}
+  60%{background-color: #334e01;}
+  80%{background-color: #7a0234;}
+  100%{background-color: #3290cf;}
+}
+
+@media  (min-width: 480px) and (max-width: 720px) {
+  .img1,
+  .img2,
+  .img3 {
+      width: 50%;
+      height: 21%;
+      margin-top: 23px;
+    
+  }
+  .img-wrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: -171px;
+    
+    
+  }
+  
+  
+  .card-warp{
+    margin-top:  500px;
+
+  }
+  
+
+  .avatar {
+      width: 100px;
+  }
+  
+  .card {
+      width: 300px;
+      padding: 0 10px;
+  }
+}
+
+@media (min-width: 721px) and (max-width: 999px) {
+  .activities {
+      height: 400px;
+  }
+  .img-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:  -91px;
+  }
+  .card-warp{
+    margin-top:  71px;
+
+  }
+
+  .title3 {
+      font-size: 25px;
+  }
+
+  .img1,
+  .img2,
+  .img3 {
+    width: 31%;
+    height: 41%;
+    
+    
+  }
+
+  
+  
+}
+
+@media (min-width: 1000px) {
+  .activities {
+      height: 400px;
+  }
+
+  .title3 {
+      font-size: 28px;
+  }
+  .img-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -171px;
+  }
+
+  .img1,
+  .img2,
+  .img3 {
+    width: 31%;
+    height: 51%;
+    
+  }
+  .card-warp{
+    margin-top:  500px;
+
+  }
+  
+
+  
+}
+
+  
+    
+  
