@@ -5,7 +5,7 @@ padding: 0;
 }
 
 .background-color {
-  background: linear-gradient(#d5c2f3, hsl(348, 54%, 50%), #d6cce6,hsl(348, 54%, 50%),#484253);
+  background: linear-gradient(#d5c2f3, hsl(348, 31%, 56%), #d6cce6,hsl(348, 89%, 82%),#bcadd8);
   height: 100%;
   
 }
@@ -198,7 +198,7 @@ padding: 0;
   }
 
   .title3 {
-      font-size: 25px;
+      font-size: 19px;
   }
 
   .img1,
